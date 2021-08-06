@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{340A6FA7-4CC1-4D9B-8B83-043E8639E377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{D86A743F-D9A5-4226-8198-07F1DFE05DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D0DD979E-83B2-4D5C-91F6-01AAD5D40D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{1A776E61-54D2-4427-BD81-152A910E3D23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86A743F-D9A5-4226-8198-07F1DFE05DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86A743F-D9A5-4226-8198-07F1DFE05DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86A743F-D9A5-4226-8198-07F1DFE05DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86A743F-D9A5-4226-8198-07F1DFE05DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A776E61-54D2-4427-BD81-152A910E3D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A776E61-54D2-4427-BD81-152A910E3D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A776E61-54D2-4427-BD81-152A910E3D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A776E61-54D2-4427-BD81-152A910E3D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D86A743F-D9A5-4226-8198-07F1DFE05DFD} = {340A6FA7-4CC1-4D9B-8B83-043E8639E377}
+		{1A776E61-54D2-4427-BD81-152A910E3D23} = {D0DD979E-83B2-4D5C-91F6-01AAD5D40D30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29991F98-1BBA-4302-894D-9450EB923688}
+	EndGlobalSection
+EndGlobal
