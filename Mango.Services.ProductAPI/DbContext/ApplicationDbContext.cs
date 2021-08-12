@@ -5,6 +5,10 @@ namespace Mango.Services.ProductAPI.DbContexts
 {
     public class ApplicationDbContext : DbContext
     {
+        protected ApplicationDbContext()
+        {
+        }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
