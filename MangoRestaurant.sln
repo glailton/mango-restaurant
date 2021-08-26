@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA94E797
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mano.Services.ProductAPI.Tests", "Mano.Services.ProductAPI.Tests\Mano.Services.ProductAPI.Tests.csproj", "{EFDBFDCF-5815-4DA6-A804-24E5C64526C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.Identity", "Mango.Services.Identity\Mango.Services.Identity.csproj", "{4F8957C6-284B-4ABE-873A-49EE2ADE8274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EFDBFDCF-5815-4DA6-A804-24E5C64526C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDBFDCF-5815-4DA6-A804-24E5C64526C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDBFDCF-5815-4DA6-A804-24E5C64526C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8957C6-284B-4ABE-873A-49EE2ADE8274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8957C6-284B-4ABE-873A-49EE2ADE8274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8957C6-284B-4ABE-873A-49EE2ADE8274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8957C6-284B-4ABE-873A-49EE2ADE8274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{D86A743F-D9A5-4226-8198-07F1DFE05DFD} = {340A6FA7-4CC1-4D9B-8B83-043E8639E377}
 		{1A776E61-54D2-4427-BD81-152A910E3D23} = {D0DD979E-83B2-4D5C-91F6-01AAD5D40D30}
 		{EFDBFDCF-5815-4DA6-A804-24E5C64526C5} = {DA94E797-1DAE-47D4-99DA-23144CBEAB0C}
+		{4F8957C6-284B-4ABE-873A-49EE2ADE8274} = {D0DD979E-83B2-4D5C-91F6-01AAD5D40D30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29991F98-1BBA-4302-894D-9450EB923688}

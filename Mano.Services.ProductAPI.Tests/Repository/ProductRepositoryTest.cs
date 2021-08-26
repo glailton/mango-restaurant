@@ -15,19 +15,17 @@ using Xunit;
 
 namespace Mango.Services.ProductAPI.Tests.Repository
 {
-    public class ProductRepositoryTest : IClassFixture<DependencyInjectionFixture>, IClassFixture<ProductFixture>, 
+    public class ProductRepositoryTest : IClassFixture<ProductFixture>, 
         IClassFixture<ProductDtoFixture>
     {
         private readonly IServiceProvider _serviceProvider;
         private readonly ProductFixture _productFixture;
         private readonly ProductDtoFixture _productDtoFixture;
 
-        public ProductRepositoryTest(ProductFixture productFixture, ProductDtoFixture productDtoFixture, 
-            DependencyInjectionFixture dependencyInjectionFixture)
+        public ProductRepositoryTest(ProductFixture productFixture, ProductDtoFixture productDtoFixture)
         {
             _productFixture = productFixture;
             _productDtoFixture = productDtoFixture;
-            _serviceProvider = dependencyInjectionFixture._ServiceProvider;
         }
 
         [Fact]
