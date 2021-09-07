@@ -20,7 +20,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
             this._response = new ResponseDto();
         }
 
-        [HttpGet("/{userId}")]
+        [HttpGet("GetCart/{userId}")]
         public async Task<object> GetCart(string userId)
         {
             try
