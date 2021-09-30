@@ -35,9 +35,13 @@ namespace Mango.Services.ShoppingCartAPI
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<ICartRepository, CartRepository>();
+            services.AddScoped<ICouponRepository, CouponRepository>();
             services.AddSingleton<IMessageBus, AzureMessageBus>();
 
             services.AddControllers();
+
+            services.AddHttpClient<ICouponRepository, CouponRepository>(u => 
+                u.BaseAddress= new Uri(Configuration["ServicesUrls:CouponApi"]));
 
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
