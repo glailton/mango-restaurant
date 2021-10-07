@@ -30,9 +30,7 @@ namespace Mango.Services.OrderAPI
         {
             services.AddDbContext<ApplicationDbContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-            // IMapper mapper = MappingConfig.RegiterMaps().CreateMapper();
-            // services.AddSingleton(mapper);
+            
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IOrderRepository, OrderRepository>();
@@ -66,7 +64,7 @@ namespace Mango.Services.OrderAPI
             });
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Mango.Services.CouponAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Mango.Services.OrderAPI", Version = "v1" });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = @"Enter 'Bearer' [scope] and your token",
