@@ -45,7 +45,7 @@ namespace Mango.GatewaySolution
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseOcelot().Wait();
+            app.UseOcelot();
         }
     }
 }
