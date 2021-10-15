@@ -1,3 +1,3 @@
 # mango-restaurant
 
-Development of a Ecommerce web site to learn Microservices architecture with .NET Core MVC(.NET 6) and Identity Server Integration with Azure Service Bus/ RabbitMQ and Entity Framework
+Development of an Ecommerce web site to learn Microservices architecture with .NET Core MVC(.NET 6) and Identity Server Integration with Azure Service Bus/ RabbitMQ and Entity Framework
